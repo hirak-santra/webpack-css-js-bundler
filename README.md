@@ -1,2 +1,2 @@
 # webpack-css-js-bundler
-for generating bundle of css and js separately
+Node js: for generating bundle of css and js separately
