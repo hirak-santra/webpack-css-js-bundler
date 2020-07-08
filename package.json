@@ -5,8 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:dev": "webpack --config webpack.config.js --dev",
-    "build:prod": "webpack --config webpack.config.js --prod"
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "Hirak Santra",
