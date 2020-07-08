@@ -1,4 +1,4 @@
-const webpackLib = require('./webpack-custom')
+const lib = require('./webpack-custom')
 
 const configuration = {
   imagePath: 'images',
@@ -24,4 +24,4 @@ const configuration = {
   }
 };
 
-module.exports = webpackLib.getWebpackJSON(configuration);
+module.exports = lib.generateConfigJson(configuration);
