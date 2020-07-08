@@ -13,7 +13,7 @@ const configuration = {
       filename: '[name].bundle.js',
       bundles: {
           main: [
-            './js/common-script.js'
+            './js/script.js'
           ]
       }
   },
