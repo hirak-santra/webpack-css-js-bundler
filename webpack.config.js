@@ -30,15 +30,11 @@ const configuration = {
 
 
 const generateConfigJson = (configuration)=> {
-    let mode = 'none';
-    let minimize = false;
+    let mode = 'production';
+    let minimize = true;
     let stats = {
         children: false
-    };
-    if(process.argv && process.argv.length && process.argv.includes('--prod')){
-        mode = 'production';
-        minimize = true;
-    }    
+    };  
     return [
                 {
                     target: 'web',
